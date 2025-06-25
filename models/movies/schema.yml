@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dev
+    database: FIVETRAN_DATABASE
+    schema: MONGO_SAMPLE_MFLIX
+
+    tables:
+      - name: MOVIES
+      - name: THEATERS
